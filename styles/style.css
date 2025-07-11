@@ -1,7 +1,7 @@
 
 
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -11,34 +11,49 @@
 
 
 /* nav style */
+
+.open-sans-normal{
+    background-color: #F5F8FF;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 10px 200px;
+    margin: 0px 200px;
     align-items: center;
+    padding: 32px 0;
 }
 .nav-logo{
     color: #4E47FF;
     font-size: 24px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway";
     font-weight: 700;
 }
+.banner, .heading-title{
+    color: #252432;
+    font-family: "Raleway";
+    font-size: 65px;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
 .btn-primari{
     padding: 12px 32px;
     background-color: #4E47FF;
     color: #fff;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway";
     font-size: 24px;
     font-weight: 400;
     border: none;
     border-radius: 8px;
+    border: 1px solid #4E47FF;
     cursor: pointer;
     
 }
 .btn-primari:hover{
     background-color: #ffffff;
     color: #4E47FF;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway";
     font-size: 24px;
     font-weight: 400;
     border: 1px solid #4E47FF;
@@ -50,12 +65,57 @@ nav{
     background-repeat: no-repeat;
     background-position: center;
     
+    
 
 }
 .banner{
    width: 905px;
-   margin: 154px 0 0px 0;
+   margin: 154px auto 0;
+   text-align: center;
+   padding-bottom: 80px;
 }
-.btn-margin{
-    margin-bottom: 200px;
+
+
+/* main-section */
+.body-part{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 116px 0;
+    align-items: center;
+    width: 1140px;
+    margin: 0 auto;
+}
+.section-title{
+    width: 60%;
+}
+.section-right-part{
+    width: 40%;
+}
+.section-right-part img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.section-right-part img{
+    
+}
+
+/* 2nd section */
+.secend-section{
+    margin-bottom: 135px;
+}
+.contant-wrapper{
+    background-color: #E5E7FF;
+    padding: 50px 80px;
+    border-radius: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contant-wrapper-boxs{
+    display: flex;
+    justify-content: space-around;
 }
