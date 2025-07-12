@@ -89,6 +89,22 @@ nav{
     width: 1140px;
     margin: 0 auto;
 }
+.section-title h3{
+    font-size: 42px;
+    font-family: 'Raleway';
+    color: #252432;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 16px;
+}
+.section-title p{
+    font-size: 24px;
+    font-family: 'Raleway';
+    color: #252432;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 16px;
+}
 .section-title{
     width: 60%;
 }
@@ -107,6 +123,32 @@ nav{
 /* 2nd section */
 .secend-section{
     margin-bottom: 135px;
+}
+.contant-wrapper h4{
+    font-size: 40px;
+    color: #252432;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+.contant-wrapper-boxs, .contant-wrapper-items h4{
+    font-size: 80px;
+    color: #4E47FF;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+.contant-wrapper-boxs, .contant-wrapper-items p{
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
 }
 .contant-wrapper{
     background-color: #E5E7FF;
@@ -146,6 +188,7 @@ nav{
     background-color: #FAFCFF;
     padding: 24px;
     border-radius: 8px;
+    text-align: left;
 }
 .user-chaild h4{
     font-size: 24px;
@@ -190,6 +233,8 @@ nav{
 }
 .avater-info{
     display: flex;
+    gap: 16px;
+    align-items: stretch;
 }
 
 /* <!-- Ready to focus better section --> */
@@ -262,7 +307,7 @@ nav{
 }
 .footer-column{
     text-align: center;
-    margin: 0 450px;
+    margin: 0 400px;
 }
 .footer-column h3{
     font-size: 100px;
