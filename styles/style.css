@@ -125,6 +125,14 @@ nav{
 .user{
     margin-bottom: 80px;
 }
+.user-box h4{
+    font-size: 42px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-style: normal;
+    color: #252432;
+    margin-bottom: 20px;
+}
 .user-box{
     text-align: center;
 }
@@ -138,6 +146,47 @@ nav{
     background-color: #FAFCFF;
     padding: 24px;
     border-radius: 8px;
+}
+.user-chaild h4{
+    font-size: 24px;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-style: normal;
+    color: #1E1E1E;
+    margin: 16px 0 8px 0;
+}
+.user-chaild p{
+    font-size: 16px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-style: normal;
+    color: #1E1E1E;
+    margin: 0px 0 24px 0;
+}
+.avater img{
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+}
+.avater-contant{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2px;
+}
+.avater-contant h6{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 600;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+.avater-contant p{
+    font-size: 10px;
+    color: #757575;
+    font-weight: 400;
+    font-family: 'Raleway';
+    font-style: normal;
 }
 .avater-info{
     display: flex;
