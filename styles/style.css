@@ -152,6 +152,21 @@ nav{
     border-radius: 14px;
     margin-bottom: 80px;
 }
+.focus-container h3{
+    font-size: 50px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.focus-container p{
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 24px;
+}
 .focus-img img{
     width: 100%;
     border-radius: 48px;
@@ -168,9 +183,65 @@ nav{
 .form-title{
     width: 50%;
 }
+.form-title h3{
+    font-size: 100px;
+    font-family: "Raleway";
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: normal;
+}
+.form-aciont, .deco{
+    padding: 16px;
+    color: #000000;
+    font-size: 16px;
+    font-family: "Raleway";
+}
 .form-aciont{
     display: flex;
     flex-direction: column;
     width: 50%;
     gap: 24px;
+}
+
+
+/* footer section */
+
+.footer-bg{
+    background-color: #FFFFFF;
+    padding: 80px 0;
+}
+.footer-column{
+    text-align: center;
+    margin: 0 450px;
+}
+.footer-column h3{
+    font-size: 100px;
+    font-family: "Raleway";
+    color: #4E47FF;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: normal;
+}
+.footer-column p{
+    color: #8987A1;
+    font-size: 16px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.footer-info a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+    font-family: "Raleway";
+    line-height: normal;
 }
